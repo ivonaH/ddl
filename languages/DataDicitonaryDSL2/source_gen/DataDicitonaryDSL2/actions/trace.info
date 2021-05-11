@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="12,0,34,0" name="DataDicitonaryDSL2.actions.ActionAspectDescriptorImpl" />
+    </file>
+  </root>
+  <root nodeRef="r:3a236b38-8d3c-443d-acd3-d04af01982a1(DataDicitonaryDSL2.actions)/2497349807121087875">
+    <file name="addingNewFieldRef.java">
+      <node id="2497349807121087899" at="19,91,20,217" concept="4" />
+      <node id="2497349807121088163" at="20,217,21,84" concept="1" />
+      <node id="2497349807121091138" at="21,84,22,0" concept="5" />
+      <node id="2497349807121091350" at="22,0,23,34" concept="4" />
+      <node id="2497349807121552005" at="23,34,24,0" concept="5" />
+      <node id="2497349807122350307" at="25,91,26,54" concept="1" />
+      <node id="2497349807122350319" at="27,14,28,128" concept="1" />
+      <node id="2497349807122348888" at="29,7,30,0" concept="5" />
+      <node id="2497349807121094109" at="30,0,31,140" concept="1" />
+      <node id="2497349807121087875" at="36,0,37,0" concept="6" trace="refElement$ix4i" />
+      <node id="2497349807121087875" at="37,0,38,0" concept="6" trace="fieldDefinitions$G$NH" />
+      <node id="2497349807121087875" at="41,0,42,0" concept="6" trace="AggregationDefinition$18" />
+      <node id="2497349807122350317" at="27,12,29,7" concept="0" />
+      <node id="2497349807122350305" at="24,0,29,7" concept="2" />
+      <node id="2497349807121087876" at="19,0,33,0" concept="3" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2497349807122350306" at="25,91,26,54" />
+      <scope id="2497349807122350318" at="27,14,28,128" />
+      <scope id="2497349807121087876" at="19,91,31,140">
+        <var name="aggregationDefinition" id="2497349807121091353" />
+        <var name="refFieldDefinition" id="2497349807121087902" />
+      </scope>
+      <scope id="2497349807121087876" at="19,0,33,0">
+        <var name="enclosingNode" id="2497349807121087876" />
+        <var name="model" id="2497349807121087876" />
+        <var name="newNode" id="2497349807121087876" />
+        <var name="sampleNode" id="2497349807121087876" />
+      </scope>
+      <unit id="2497349807121087875" at="40,0,43,0" name="DataDicitonaryDSL2.actions.addingNewFieldRef$CONCEPTS" />
+      <unit id="2497349807121087875" at="35,0,39,0" name="DataDicitonaryDSL2.actions.addingNewFieldRef$LINKS" />
+      <unit id="2497349807121087876" at="18,0,34,0" name="DataDicitonaryDSL2.actions.addingNewFieldRef$NodeFactory_2497349807121087876" />
+      <unit id="2497349807121087875" at="17,0,44,0" name="DataDicitonaryDSL2.actions.addingNewFieldRef" />
+    </file>
+  </root>
+  <root nodeRef="r:3a236b38-8d3c-443d-acd3-d04af01982a1(DataDicitonaryDSL2.actions)/7032480833813761045">
+    <file name="field_node_factory.java">
+      <node id="7032480833813763720" at="17,91,18,82" concept="4" />
+      <node id="7032480833813779791" at="18,82,19,179" concept="1" />
+      <node id="7032480833813761045" at="24,0,25,0" concept="6" trace="domainRef$gcsn" />
+      <node id="7032480833813761045" at="25,0,26,0" concept="6" trace="predefinedDomains$M0T0" />
+      <node id="7032480833813761046" at="17,0,21,0" concept="3" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="7032480833813761046" at="17,91,19,179">
+        <var name="dataDicrionaryNode" id="7032480833813763723" />
+      </scope>
+      <scope id="7032480833813761046" at="17,0,21,0">
+        <var name="enclosingNode" id="7032480833813761046" />
+        <var name="model" id="7032480833813761046" />
+        <var name="newNode" id="7032480833813761046" />
+        <var name="sampleNode" id="7032480833813761046" />
+      </scope>
+      <unit id="7032480833813761045" at="23,0,27,0" name="DataDicitonaryDSL2.actions.field_node_factory$LINKS" />
+      <unit id="7032480833813761046" at="16,0,22,0" name="DataDicitonaryDSL2.actions.field_node_factory$NodeFactory_7032480833813761046" />
+      <unit id="7032480833813761045" at="15,0,28,0" name="DataDicitonaryDSL2.actions.field_node_factory" />
+    </file>
+  </root>
+  <root nodeRef="r:3a236b38-8d3c-443d-acd3-d04af01982a1(DataDicitonaryDSL2.actions)/7032480833814212491">
+    <file name="predefined_domain_node_factories.java">
+      <node id="7032480833814212506" at="15,91,16,128" concept="1" />
+      <node id="7032480833814212491" at="21,0,22,0" concept="6" trace="name$MnvL" />
+      <node id="7032480833814212492" at="15,0,18,0" concept="3" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="7032480833814212492" at="15,91,16,128" />
+      <scope id="7032480833814212492" at="15,0,18,0">
+        <var name="enclosingNode" id="7032480833814212492" />
+        <var name="model" id="7032480833814212492" />
+        <var name="newNode" id="7032480833814212492" />
+        <var name="sampleNode" id="7032480833814212492" />
+      </scope>
+      <unit id="7032480833814212491" at="20,0,23,0" name="DataDicitonaryDSL2.actions.predefined_domain_node_factories$PROPS" />
+      <unit id="7032480833814212492" at="14,0,19,0" name="DataDicitonaryDSL2.actions.predefined_domain_node_factories$NodeFactory_7032480833814212492" />
+      <unit id="7032480833814212491" at="13,0,24,0" name="DataDicitonaryDSL2.actions.predefined_domain_node_factories" />
+    </file>
+  </root>
+  <root nodeRef="r:3a236b38-8d3c-443d-acd3-d04af01982a1(DataDicitonaryDSL2.actions)/7256063613932770206">
+    <file name="addingNewFieldDef.java">
+      <node id="2327054516250808354" at="19,91,20,0" concept="5" />
+      <node id="2327054516250809070" at="20,0,21,200" concept="4" />
+      <node id="4939678951752355508" at="21,200,22,0" concept="5" />
+      <node id="2327054516250736027" at="22,0,23,76" concept="1" />
+      <node id="2497349807121087783" at="23,76,24,0" concept="5" />
+      <node id="2327054516250814600" at="24,0,25,34" concept="4" />
+      <node id="2327054516250809596" at="25,34,26,0" concept="5" />
+      <node id="2327054516250817768" at="27,91,28,54" concept="1" />
+      <node id="2327054516250814853" at="29,14,30,128" concept="1" />
+      <node id="2327054516251838706" at="31,7,32,136" concept="4" />
+      <node id="2327054516251841543" at="32,136,33,178" concept="1" />
+      <node id="2327054516250589512" at="33,178,34,127" concept="1" />
+      <node id="2327054516250812147" at="34,127,35,0" concept="5" />
+      <node id="7256063613932770206" at="40,0,41,0" concept="6" trace="fieldElementRef$gcUp" />
+      <node id="7256063613932770206" at="41,0,42,0" concept="6" trace="domainRef$gcsn" />
+      <node id="7256063613932770206" at="42,0,43,0" concept="6" trace="predefinedDomains$M0T0" />
+      <node id="7256063613932770206" at="43,0,44,0" concept="6" trace="fieldDefinitions$G$NH" />
+      <node id="7256063613932770206" at="47,0,48,0" concept="6" trace="AggregationDefinition$18" />
+      <node id="7256063613932770206" at="48,0,49,0" concept="6" trace="DataDictionaryModel$O3" />
+      <node id="2327054516250235764" at="29,12,31,7" concept="0" />
+      <node id="2327054516250233022" at="26,0,31,7" concept="2" />
+      <node id="7256063613932770207" at="19,0,37,0" concept="3" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="2327054516250233024" at="27,91,28,54" />
+      <scope id="2327054516250235765" at="29,14,30,128" />
+      <scope id="7256063613932770207" at="19,91,35,0">
+        <var name="aggregationDefinition" id="2327054516250814603" />
+        <var name="dataDictionaryModel" id="2327054516251838709" />
+        <var name="field" id="2327054516250606160" />
+      </scope>
+      <scope id="7256063613932770207" at="19,0,37,0">
+        <var name="enclosingNode" id="7256063613932770207" />
+        <var name="model" id="7256063613932770207" />
+        <var name="newNode" id="7256063613932770207" />
+        <var name="sampleNode" id="7256063613932770207" />
+      </scope>
+      <unit id="7256063613932770206" at="46,0,50,0" name="DataDicitonaryDSL2.actions.addingNewFieldDef$CONCEPTS" />
+      <unit id="7256063613932770206" at="39,0,45,0" name="DataDicitonaryDSL2.actions.addingNewFieldDef$LINKS" />
+      <unit id="7256063613932770207" at="18,0,38,0" name="DataDicitonaryDSL2.actions.addingNewFieldDef$NodeFactory_7256063613932770207" />
+      <unit id="7256063613932770206" at="17,0,51,0" name="DataDicitonaryDSL2.actions.addingNewFieldDef" />
+    </file>
+  </root>
+</debug-info>
+

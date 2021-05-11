@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070462154015:jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
+  <root>
+    <file name="ConstraintsAspectDescriptor.java">
+      <unit at="13,0,43,0" name="DataDicitonaryDSL2.constraints.ConstraintsAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/2327054516246766559">
+    <file name="AggregationStructureElement_Constraints.java">
+      <node id="2327054516246766559" at="21,52,22,51" concept="9" />
+      <node id="2327054516246766559" at="29,128,30,133" concept="4" />
+      <node id="2327054516246766559" at="30,133,31,0" concept="6" />
+      <node id="2327054516246766559" at="32,55,33,72" concept="1" />
+      <node id="2327054516246766559" at="34,9,35,0" concept="6" />
+      <node id="2327054516246766559" at="35,0,36,22" concept="5" />
+      <node id="2327054516246766814" at="40,128,41,126" concept="5" />
+      <node id="2327054516246766559" at="43,0,44,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="2327054516246766559" at="46,0,47,0" concept="7" trace="AggregationStructureElement$z$" />
+      <node id="2327054516246766559" at="21,0,24,0" concept="0" trace="AggregationStructureElement_Constraints#()V" />
+      <node id="2327054516246766559" at="31,0,34,9" concept="2" />
+      <node id="2327054516246766559" at="40,0,43,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2327054516246766559" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2327054516246766559" at="26,105,38,6" concept="5" />
+      <node id="2327054516246766559" at="25,0,40,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="2327054516246766559" at="21,52,22,51" />
+      <scope id="2327054516246766559" at="32,55,33,72" />
+      <scope id="2327054516246766561" at="40,128,41,126" />
+      <scope id="2327054516246766559" at="21,0,24,0" />
+      <scope id="2327054516246766559" at="40,0,43,0">
+        <var name="childConcept" id="2327054516246766559" />
+        <var name="childNode" id="2327054516246766559" />
+        <var name="link" id="2327054516246766559" />
+        <var name="node" id="2327054516246766559" />
+      </scope>
+      <scope id="2327054516246766559" at="29,128,36,22">
+        <var name="result" id="2327054516246766559" />
+      </scope>
+      <scope id="2327054516246766559" at="28,0,38,0">
+        <var name="checkingNodeContext" id="2327054516246766559" />
+        <var name="context" id="2327054516246766559" />
+      </scope>
+      <scope id="2327054516246766559" at="26,105,38,6" />
+      <scope id="2327054516246766559" at="25,0,40,0" />
+      <unit id="2327054516246766559" at="45,0,48,0" name="DataDicitonaryDSL2.constraints.AggregationStructureElement_Constraints$CONCEPTS" />
+      <unit id="2327054516246766559" at="27,15,38,5" name="DataDicitonaryDSL2.constraints.AggregationStructureElement_Constraints$1" />
+      <unit id="2327054516246766559" at="20,0,49,0" name="DataDicitonaryDSL2.constraints.AggregationStructureElement_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/2327054516246769921">
+    <file name="AggregationDefinition_Constraints.java">
+      <node id="2327054516246769921" at="21,46,22,45" concept="9" />
+      <node id="2327054516246769921" at="29,128,30,133" concept="4" />
+      <node id="2327054516246769921" at="30,133,31,0" concept="6" />
+      <node id="2327054516246769921" at="32,55,33,72" concept="1" />
+      <node id="2327054516246769921" at="34,9,35,0" concept="6" />
+      <node id="2327054516246769921" at="35,0,36,22" concept="5" />
+      <node id="2327054516246770175" at="40,128,41,126" concept="5" />
+      <node id="2327054516246769921" at="43,0,44,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="2327054516246769921" at="46,0,47,0" concept="7" trace="AggregationDefinition$18" />
+      <node id="2327054516246769921" at="47,0,48,0" concept="7" trace="AggregationStructureElement$z$" />
+      <node id="2327054516246769921" at="21,0,24,0" concept="0" trace="AggregationDefinition_Constraints#()V" />
+      <node id="2327054516246769921" at="31,0,34,9" concept="2" />
+      <node id="2327054516246769921" at="40,0,43,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="2327054516246769921" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="2327054516246769921" at="26,105,38,6" concept="5" />
+      <node id="2327054516246769921" at="25,0,40,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="2327054516246769921" at="21,46,22,45" />
+      <scope id="2327054516246769921" at="32,55,33,72" />
+      <scope id="2327054516246769923" at="40,128,41,126" />
+      <scope id="2327054516246769921" at="21,0,24,0" />
+      <scope id="2327054516246769921" at="40,0,43,0">
+        <var name="childConcept" id="2327054516246769921" />
+        <var name="childNode" id="2327054516246769921" />
+        <var name="link" id="2327054516246769921" />
+        <var name="node" id="2327054516246769921" />
+      </scope>
+      <scope id="2327054516246769921" at="29,128,36,22">
+        <var name="result" id="2327054516246769921" />
+      </scope>
+      <scope id="2327054516246769921" at="28,0,38,0">
+        <var name="checkingNodeContext" id="2327054516246769921" />
+        <var name="context" id="2327054516246769921" />
+      </scope>
+      <scope id="2327054516246769921" at="26,105,38,6" />
+      <scope id="2327054516246769921" at="25,0,40,0" />
+      <unit id="2327054516246769921" at="45,0,49,0" name="DataDicitonaryDSL2.constraints.AggregationDefinition_Constraints$CONCEPTS" />
+      <unit id="2327054516246769921" at="27,15,38,5" name="DataDicitonaryDSL2.constraints.AggregationDefinition_Constraints$1" />
+      <unit id="2327054516246769921" at="20,0,50,0" name="DataDicitonaryDSL2.constraints.AggregationDefinition_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/3845336034125564676">
+    <file name="SemanticDomain_Constraints.java">
+      <node id="3845336034125564676" at="38,39,39,38" concept="9" />
+      <node id="3845336034125564676" at="46,130,47,161" concept="4" />
+      <node id="3845336034125564676" at="47,161,48,0" concept="6" />
+      <node id="3845336034125564676" at="49,55,50,70" concept="1" />
+      <node id="3845336034125564676" at="51,9,52,0" concept="6" />
+      <node id="3845336034125564676" at="52,0,53,22" concept="5" />
+      <node id="3998464444452186420" at="61,44,62,20" concept="5" />
+      <node id="3998464444452186420" at="69,63,70,57" concept="5" />
+      <node id="3998464444452191425" at="73,80,74,63" concept="4" />
+      <node id="3998464444452258790" at="74,63,75,0" concept="6" />
+      <node id="3998464444452591237" at="78,56,79,64" concept="1" />
+      <node id="3998464444452641693" at="84,43,85,62" concept="1" />
+      <node id="3998464444452258916" at="87,15,88,51" concept="5" />
+      <node id="3845336034125564676" at="92,6,93,131" concept="4" />
+      <node id="3998464444452186420" at="93,131,94,42" concept="1" />
+      <node id="3845336034125564676" at="94,42,95,22" concept="5" />
+      <node id="3998464444457100808" at="97,149,98,114" concept="4" />
+      <node id="3998464444457100127" at="98,114,99,0" concept="6" />
+      <node id="3998464444457101614" at="100,80,101,118" concept="5" />
+      <node id="3998464444452905550" at="103,78,104,115" concept="5" />
+      <node id="3998464444457101505" at="105,5,106,16" concept="5" />
+      <node id="3845336034125564676" at="108,0,109,0" concept="7" trace="canBeRootBreakingPoint" />
+      <node id="3845336034125564676" at="109,0,110,0" concept="7" trace="breakingNode_hes8uo_a0a0a0a0a1a0a0a0d" />
+      <node id="3845336034125564676" at="112,0,113,0" concept="7" trace="SemanticDomain$Me" />
+      <node id="3845336034125564676" at="113,0,114,0" concept="7" trace="DataDictionaryModel$O3" />
+      <node id="3845336034125564676" at="114,0,115,0" concept="7" trace="Character$Pj" />
+      <node id="3845336034125564676" at="115,0,116,0" concept="7" trace="BetweenConstraint$fK" />
+      <node id="3845336034125564676" at="116,0,117,0" concept="7" trace="NotNullConstraint$7s" />
+      <node id="3845336034125564676" at="117,0,118,0" concept="7" trace="Logical$Sf" />
+      <node id="3845336034125564676" at="121,0,122,0" concept="7" trace="domainRef$oCPK" />
+      <node id="3845336034125564676" at="122,0,123,0" concept="7" trace="semanticDomains$gacN" />
+      <node id="3845336034125564676" at="123,0,124,0" concept="7" trace="predefinedDomains$M0T0" />
+      <node id="3845336034125564676" at="38,0,41,0" concept="0" trace="SemanticDomain_Constraints#()V" />
+      <node id="3845336034125564676" at="48,0,51,9" concept="2" />
+      <node id="3998464444452581610" at="77,43,80,17" concept="2" />
+      <node id="3998464444452638506" at="84,0,87,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3998464444457097075" at="99,0,102,5" concept="2" />
+      <node id="3998464444457294947" at="102,5,105,5" concept="2" />
+      <node id="3998464444452186420" at="60,0,64,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="3998464444452186420" at="68,0,72,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="3998464444452580537" at="77,0,82,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="3998464444452613241" at="82,15,87,15" concept="1" />
+      <node id="3998464444452559819" at="75,0,82,15" concept="1" />
+      <node id="3845336034125564676" at="45,0,55,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeAncestor;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3845336034125564676" at="97,0,108,0" concept="8" trace="staticCanBeAnAncestor#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3845336034125564676" at="43,109,55,6" concept="5" />
+      <node id="3845336034125564676" at="42,0,57,0" concept="3" trace="calculateCanBeAncestorConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <node id="3998464444452186420" at="72,0,90,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="3998464444452186420" at="66,56,90,10" concept="5" />
+      <node id="3998464444452186420" at="64,0,92,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="3998464444452186420" at="58,90,92,6" concept="4" />
+      <node id="3845336034125564676" at="57,0,97,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="3845336034125564676" at="38,39,39,38" />
+      <scope id="3845336034125564676" at="49,55,50,70" />
+      <scope id="3998464444452186420" at="61,44,62,20" />
+      <scope id="3998464444452186420" at="69,63,70,57" />
+      <scope id="3998464444452581612" at="78,56,79,64" />
+      <scope id="3998464444452638507" at="84,43,85,62" />
+      <scope id="3998464444457097077" at="100,80,101,118" />
+      <scope id="3998464444457294949" at="103,78,104,115" />
+      <scope id="3845336034125564676" at="38,0,41,0" />
+      <scope id="3998464444452580538" at="77,43,80,17" />
+      <scope id="3998464444452638506" at="84,0,87,0">
+        <var name="it" id="3998464444452638506" />
+      </scope>
+      <scope id="3998464444452186420" at="60,0,64,0" />
+      <scope id="3998464444452186420" at="68,0,72,0" />
+      <scope id="3998464444452580537" at="77,0,82,0">
+        <var name="sd" id="3998464444452580537" />
+      </scope>
+      <scope id="3845336034125564676" at="46,130,53,22">
+        <var name="result" id="3845336034125564676" />
+      </scope>
+      <scope id="3998464444457094603" at="97,149,106,16">
+        <var name="predefinedDomain" id="3998464444457100809" />
+      </scope>
+      <scope id="3845336034125564676" at="45,0,55,0">
+        <var name="checkingNodeContext" id="3845336034125564676" />
+        <var name="context" id="3845336034125564676" />
+      </scope>
+      <scope id="3845336034125564676" at="97,0,108,0">
+        <var name="childConcept" id="3845336034125564676" />
+        <var name="childNode" id="3845336034125564676" />
+        <var name="link" id="3845336034125564676" />
+        <var name="node" id="3845336034125564676" />
+        <var name="parentNode" id="3845336034125564676" />
+      </scope>
+      <scope id="3845336034125564676" at="43,109,55,6" />
+      <scope id="3845336034125564676" at="42,0,57,0" />
+      <scope id="3998464444452186420" at="73,80,88,51">
+        <var name="domains" id="3998464444452191428" />
+      </scope>
+      <scope id="3998464444452186420" at="72,0,90,0">
+        <var name="_context" id="3998464444452186420" />
+      </scope>
+      <scope id="3998464444452186420" at="66,56,90,10" />
+      <scope id="3998464444452186420" at="64,0,92,0" />
+      <scope id="3845336034125564676" at="58,90,95,22">
+        <var name="d0" id="3998464444452186420" />
+        <var name="references" id="3845336034125564676" />
+      </scope>
+      <scope id="3845336034125564676" at="57,0,97,0" />
+      <unit id="3998464444452638506" at="83,215,87,13" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints$2$1$2" />
+      <unit id="3845336034125564676" at="120,0,125,0" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints$LINKS" />
+      <unit id="3998464444452580537" at="76,213,82,13" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints$2$1$1" />
+      <unit id="3845336034125564676" at="111,0,119,0" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints$CONCEPTS" />
+      <unit id="3845336034125564676" at="44,15,55,5" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints$1" />
+      <unit id="3998464444452186420" at="67,19,90,9" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints$2$1" />
+      <unit id="3998464444452186420" at="59,48,92,5" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints$2" />
+      <unit id="3845336034125564676" at="37,0,126,0" name="DataDicitonaryDSL2.constraints.SemanticDomain_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/3998464444457731104">
+    <file name="AndConstraint_Constraints.java">
+      <node id="3998464444457731104" at="21,38,22,37" concept="9" />
+      <node id="3998464444457731104" at="29,128,30,133" concept="4" />
+      <node id="3998464444457731104" at="30,133,31,0" concept="6" />
+      <node id="3998464444457731104" at="32,55,33,72" concept="1" />
+      <node id="3998464444457731104" at="34,9,35,0" concept="6" />
+      <node id="3998464444457731104" at="35,0,36,22" concept="5" />
+      <node id="3998464444457738551" at="42,129,43,21" concept="5" />
+      <node id="3998464444457738743" at="45,5,46,16" concept="5" />
+      <node id="3998464444457731104" at="48,0,49,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="3998464444457731104" at="51,0,52,0" concept="7" trace="AndConstraint$bK" />
+      <node id="3998464444457731104" at="52,0,53,0" concept="7" trace="NotNullConstraint$7s" />
+      <node id="3998464444457731104" at="56,0,57,0" concept="7" trace="constraint1$wJEh" />
+      <node id="3998464444457731104" at="57,0,58,0" concept="7" trace="constraint2$wK8j" />
+      <node id="3998464444457731104" at="21,0,24,0" concept="0" trace="AndConstraint_Constraints#()V" />
+      <node id="3998464444457731104" at="31,0,34,9" concept="2" />
+      <node id="3998464444457735044" at="41,127,44,7" concept="2" />
+      <node id="3998464444457731355" at="40,128,45,5" concept="2" />
+      <node id="3998464444457731104" at="40,0,48,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="3998464444457731104" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="3998464444457731104" at="26,105,38,6" concept="5" />
+      <node id="3998464444457731104" at="25,0,40,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="3998464444457731104" at="21,38,22,37" />
+      <scope id="3998464444457731104" at="32,55,33,72" />
+      <scope id="3998464444457735046" at="42,129,43,21" />
+      <scope id="3998464444457731104" at="21,0,24,0" />
+      <scope id="3998464444457731357" at="41,127,44,7" />
+      <scope id="3998464444457731106" at="40,128,46,16" />
+      <scope id="3998464444457731104" at="29,128,36,22">
+        <var name="result" id="3998464444457731104" />
+      </scope>
+      <scope id="3998464444457731104" at="40,0,48,0">
+        <var name="childConcept" id="3998464444457731104" />
+        <var name="childNode" id="3998464444457731104" />
+        <var name="link" id="3998464444457731104" />
+        <var name="node" id="3998464444457731104" />
+      </scope>
+      <scope id="3998464444457731104" at="28,0,38,0">
+        <var name="checkingNodeContext" id="3998464444457731104" />
+        <var name="context" id="3998464444457731104" />
+      </scope>
+      <scope id="3998464444457731104" at="26,105,38,6" />
+      <scope id="3998464444457731104" at="25,0,40,0" />
+      <unit id="3998464444457731104" at="50,0,54,0" name="DataDicitonaryDSL2.constraints.AndConstraint_Constraints$CONCEPTS" />
+      <unit id="3998464444457731104" at="55,0,59,0" name="DataDicitonaryDSL2.constraints.AndConstraint_Constraints$LINKS" />
+      <unit id="3998464444457731104" at="27,15,38,5" name="DataDicitonaryDSL2.constraints.AndConstraint_Constraints$1" />
+      <unit id="3998464444457731104" at="20,0,60,0" name="DataDicitonaryDSL2.constraints.AndConstraint_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/4939678951751143734">
+    <file name="SetStructureElement_Constraints.java">
+      <node id="4939678951751143734" at="21,44,22,43" concept="9" />
+      <node id="4939678951751143734" at="29,128,30,133" concept="4" />
+      <node id="4939678951751143734" at="30,133,31,0" concept="6" />
+      <node id="4939678951751143734" at="32,55,33,72" concept="1" />
+      <node id="4939678951751143734" at="34,9,35,0" concept="6" />
+      <node id="4939678951751143734" at="35,0,36,22" concept="5" />
+      <node id="4939678951751143986" at="40,128,41,123" concept="5" />
+      <node id="4939678951751143734" at="43,0,44,0" concept="7" trace="canBeParentBreakingPoint" />
+      <node id="4939678951751143734" at="46,0,47,0" concept="7" trace="SetStructureElement$Zr" />
+      <node id="4939678951751143734" at="47,0,48,0" concept="7" trace="AggregationStructureElement$z$" />
+      <node id="4939678951751143734" at="21,0,24,0" concept="0" trace="SetStructureElement_Constraints#()V" />
+      <node id="4939678951751143734" at="31,0,34,9" concept="2" />
+      <node id="4939678951751143734" at="40,0,43,0" concept="8" trace="staticCanBeAParent#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/language/SAbstractConcept;Lorg/jetbrains/mps/openapi/language/SContainmentLink;)Z" />
+      <node id="4939678951751143734" at="28,0,38,0" concept="3" trace="invoke#(Ljetbrains/mps/smodel/runtime/ConstraintContext_CanBeParent;Ljetbrains/mps/smodel/runtime/CheckingNodeContext;)Ljava/lang/Boolean;" />
+      <node id="4939678951751143734" at="26,105,38,6" concept="5" />
+      <node id="4939678951751143734" at="25,0,40,0" concept="3" trace="calculateCanBeParentConstraint#()Ljetbrains/mps/smodel/runtime/ConstraintFunction;" />
+      <scope id="4939678951751143734" at="21,44,22,43" />
+      <scope id="4939678951751143734" at="32,55,33,72" />
+      <scope id="4939678951751143736" at="40,128,41,123" />
+      <scope id="4939678951751143734" at="21,0,24,0" />
+      <scope id="4939678951751143734" at="40,0,43,0">
+        <var name="childConcept" id="4939678951751143734" />
+        <var name="childNode" id="4939678951751143734" />
+        <var name="link" id="4939678951751143734" />
+        <var name="node" id="4939678951751143734" />
+      </scope>
+      <scope id="4939678951751143734" at="29,128,36,22">
+        <var name="result" id="4939678951751143734" />
+      </scope>
+      <scope id="4939678951751143734" at="28,0,38,0">
+        <var name="checkingNodeContext" id="4939678951751143734" />
+        <var name="context" id="4939678951751143734" />
+      </scope>
+      <scope id="4939678951751143734" at="26,105,38,6" />
+      <scope id="4939678951751143734" at="25,0,40,0" />
+      <unit id="4939678951751143734" at="45,0,49,0" name="DataDicitonaryDSL2.constraints.SetStructureElement_Constraints$CONCEPTS" />
+      <unit id="4939678951751143734" at="27,15,38,5" name="DataDicitonaryDSL2.constraints.SetStructureElement_Constraints$1" />
+      <unit id="4939678951751143734" at="20,0,50,0" name="DataDicitonaryDSL2.constraints.SetStructureElement_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/4939678951754342030">
+    <file name="ReferenceFieldDefinition_Constraints.java">
+      <node id="4939678951754342030" at="23,49,24,48" concept="9" />
+      <node id="4939678951754342229" at="31,44,32,20" concept="5" />
+      <node id="4939678951754342229" at="39,63,40,57" concept="5" />
+      <node id="4939678951754342229" at="43,80,44,154" concept="4" />
+      <node id="4939678951754342229" at="44,154,45,62" concept="5" />
+      <node id="4939678951754342030" at="49,6,50,131" concept="4" />
+      <node id="4939678951754342229" at="50,131,51,42" concept="1" />
+      <node id="4939678951754342030" at="51,42,52,22" concept="5" />
+      <node id="4939678951754342030" at="54,0,55,0" concept="7" trace="breakingNode_48gm6k_a0a0a0a0a1a0a0a0c" />
+      <node id="4939678951754342030" at="57,0,58,0" concept="7" trace="ReferenceFieldDefinition$79" />
+      <node id="4939678951754342030" at="58,0,59,0" concept="7" trace="ValueFieldElement$Uu" />
+      <node id="4939678951754342030" at="62,0,63,0" concept="7" trace="refFieldElementForeign$9C0x" />
+      <node id="4939678951754342030" at="23,0,26,0" concept="0" trace="ReferenceFieldDefinition_Constraints#()V" />
+      <node id="4939678951754342229" at="30,0,34,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="4939678951754342229" at="38,0,42,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="4939678951754342229" at="42,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="4939678951754342229" at="36,56,47,10" concept="5" />
+      <node id="4939678951754342229" at="34,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="4939678951754342229" at="28,90,49,6" concept="4" />
+      <node id="4939678951754342030" at="27,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="4939678951754342030" at="23,49,24,48" />
+      <scope id="4939678951754342229" at="31,44,32,20" />
+      <scope id="4939678951754342229" at="39,63,40,57" />
+      <scope id="4939678951754342229" at="43,80,45,62">
+        <var name="scope" id="4939678951754342229" />
+      </scope>
+      <scope id="4939678951754342030" at="23,0,26,0" />
+      <scope id="4939678951754342229" at="30,0,34,0" />
+      <scope id="4939678951754342229" at="38,0,42,0" />
+      <scope id="4939678951754342229" at="42,0,47,0">
+        <var name="_context" id="4939678951754342229" />
+      </scope>
+      <scope id="4939678951754342229" at="36,56,47,10" />
+      <scope id="4939678951754342229" at="34,0,49,0" />
+      <scope id="4939678951754342030" at="28,90,52,22">
+        <var name="d0" id="4939678951754342229" />
+        <var name="references" id="4939678951754342030" />
+      </scope>
+      <scope id="4939678951754342030" at="27,0,54,0" />
+      <unit id="4939678951754342030" at="61,0,64,0" name="DataDicitonaryDSL2.constraints.ReferenceFieldDefinition_Constraints$LINKS" />
+      <unit id="4939678951754342030" at="56,0,60,0" name="DataDicitonaryDSL2.constraints.ReferenceFieldDefinition_Constraints$CONCEPTS" />
+      <unit id="4939678951754342229" at="37,19,47,9" name="DataDicitonaryDSL2.constraints.ReferenceFieldDefinition_Constraints$1$1" />
+      <unit id="4939678951754342229" at="29,48,49,5" name="DataDicitonaryDSL2.constraints.ReferenceFieldDefinition_Constraints$1" />
+      <unit id="4939678951754342030" at="22,0,65,0" name="DataDicitonaryDSL2.constraints.ReferenceFieldDefinition_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/5773922614064731159">
+    <file name="ValueFieldDefinition_Constraints.java">
+      <node id="5773922614064731159" at="31,45,32,43" concept="9" />
+      <node id="5773922614064731160" at="39,44,40,20" concept="5" />
+      <node id="5773922614064731160" at="47,63,48,57" concept="5" />
+      <node id="5773922614064743086" at="51,80,52,63" concept="4" />
+      <node id="5773922614064862943" at="54,43,55,62" concept="1" />
+      <node id="5773922614064828353" at="59,43,60,62" concept="1" />
+      <node id="5773922614064850612" at="62,15,63,51" concept="5" />
+      <node id="5773922614064731159" at="67,6,68,131" concept="4" />
+      <node id="5773922614064731160" at="68,131,69,42" concept="1" />
+      <node id="5773922614064731159" at="69,42,70,22" concept="5" />
+      <node id="5773922614064731159" at="72,0,73,0" concept="7" trace="breakingNode_yvb5g9_a0a0a0a0a1a0a0a0c" />
+      <node id="5773922614064731159" at="75,0,76,0" concept="7" trace="ValueFieldDefinition$5" />
+      <node id="5773922614064731159" at="76,0,77,0" concept="7" trace="DataDictionaryModel$O3" />
+      <node id="5773922614064731159" at="80,0,81,0" concept="7" trace="domainRef$gcsn" />
+      <node id="5773922614064731159" at="81,0,82,0" concept="7" trace="semanticDomains$gacN" />
+      <node id="5773922614064731159" at="82,0,83,0" concept="7" trace="predefinedDomains$M0T0" />
+      <node id="5773922614064731159" at="31,0,34,0" concept="0" trace="ValueFieldDefinition_Constraints#()V" />
+      <node id="5773922614064775891" at="54,0,57,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5773922614064827346" at="59,0,62,0" concept="3" trace="visit#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="5773922614064731160" at="38,0,42,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="5773922614064731160" at="46,0,50,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="5773922614064739064" at="52,63,57,15" concept="1" />
+      <node id="5773922614064800371" at="57,15,62,15" concept="1" />
+      <node id="5773922614064731160" at="50,0,65,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="5773922614064731160" at="44,56,65,10" concept="5" />
+      <node id="5773922614064731160" at="42,0,67,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="5773922614064731160" at="36,90,67,6" concept="4" />
+      <node id="5773922614064731159" at="35,0,72,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="5773922614064731159" at="31,45,32,43" />
+      <scope id="5773922614064731160" at="39,44,40,20" />
+      <scope id="5773922614064731160" at="47,63,48,57" />
+      <scope id="5773922614064775892" at="54,43,55,62" />
+      <scope id="5773922614064827347" at="59,43,60,62" />
+      <scope id="5773922614064731159" at="31,0,34,0" />
+      <scope id="5773922614064775891" at="54,0,57,0">
+        <var name="it" id="5773922614064775891" />
+      </scope>
+      <scope id="5773922614064827346" at="59,0,62,0">
+        <var name="it" id="5773922614064827346" />
+      </scope>
+      <scope id="5773922614064731160" at="38,0,42,0" />
+      <scope id="5773922614064731160" at="46,0,50,0" />
+      <scope id="5773922614064731160" at="51,80,63,51">
+        <var name="domains" id="5773922614064743089" />
+      </scope>
+      <scope id="5773922614064731160" at="50,0,65,0">
+        <var name="_context" id="5773922614064731160" />
+      </scope>
+      <scope id="5773922614064731160" at="44,56,65,10" />
+      <scope id="5773922614064731160" at="42,0,67,0" />
+      <scope id="5773922614064731159" at="36,90,70,22">
+        <var name="d0" id="5773922614064731160" />
+        <var name="references" id="5773922614064731159" />
+      </scope>
+      <scope id="5773922614064731159" at="35,0,72,0" />
+      <unit id="5773922614064775891" at="53,213,57,13" name="DataDicitonaryDSL2.constraints.ValueFieldDefinition_Constraints$1$1$1" />
+      <unit id="5773922614064827346" at="58,215,62,13" name="DataDicitonaryDSL2.constraints.ValueFieldDefinition_Constraints$1$1$2" />
+      <unit id="5773922614064731159" at="74,0,78,0" name="DataDicitonaryDSL2.constraints.ValueFieldDefinition_Constraints$CONCEPTS" />
+      <unit id="5773922614064731159" at="79,0,84,0" name="DataDicitonaryDSL2.constraints.ValueFieldDefinition_Constraints$LINKS" />
+      <unit id="5773922614064731160" at="45,19,65,9" name="DataDicitonaryDSL2.constraints.ValueFieldDefinition_Constraints$1$1" />
+      <unit id="5773922614064731160" at="37,48,67,5" name="DataDicitonaryDSL2.constraints.ValueFieldDefinition_Constraints$1" />
+      <unit id="5773922614064731159" at="30,0,85,0" name="DataDicitonaryDSL2.constraints.ValueFieldDefinition_Constraints" />
+    </file>
+  </root>
+  <root nodeRef="r:8e50902a-bd1b-43d4-b7ef-74cb9c24c4ee(DataDicitonaryDSL2.constraints)/6862978633796453166">
+    <file name="ReferenceFieldElement_Constraints.java">
+      <node id="6862978633796453166" at="23,46,24,45" concept="9" />
+      <node id="6862978633796453226" at="31,44,32,20" concept="5" />
+      <node id="6862978633796453226" at="39,63,40,57" concept="5" />
+      <node id="6862978633796453226" at="43,80,44,158" concept="4" />
+      <node id="6862978633796453226" at="44,158,45,62" concept="5" />
+      <node id="6862978633796453166" at="49,6,50,131" concept="4" />
+      <node id="6862978633796453226" at="50,131,51,42" concept="1" />
+      <node id="6862978633796453166" at="51,42,52,22" concept="5" />
+      <node id="6862978633796453166" at="54,0,55,0" concept="7" trace="breakingNode_f2pkiq_a0a0a0a0a1a0a0a0c" />
+      <node id="6862978633796453166" at="57,0,58,0" concept="7" trace="ReferenceFieldElement$m5" />
+      <node id="6862978633796453166" at="58,0,59,0" concept="7" trace="AggregationDefinition$18" />
+      <node id="6862978633796453166" at="62,0,63,0" concept="7" trace="refAggregationDefinition$as$k" />
+      <node id="6862978633796453166" at="23,0,26,0" concept="0" trace="ReferenceFieldElement_Constraints#()V" />
+      <node id="6862978633796453226" at="30,0,34,0" concept="3" trace="hasOwnScopeProvider#()Z" />
+      <node id="6862978633796453226" at="38,0,42,0" concept="3" trace="getSearchScopeValidatorNode#()Lorg/jetbrains/mps/openapi/model/SNodeReference;" />
+      <node id="6862978633796453226" at="42,0,47,0" concept="3" trace="createScope#(Ljetbrains/mps/smodel/runtime/ReferenceConstraintsContext;)Ljetbrains/mps/scope/Scope;" />
+      <node id="6862978633796453226" at="36,56,47,10" concept="5" />
+      <node id="6862978633796453226" at="34,0,49,0" concept="3" trace="getScopeProvider#()Ljetbrains/mps/smodel/runtime/ReferenceScopeProvider;" />
+      <node id="6862978633796453226" at="28,90,49,6" concept="4" />
+      <node id="6862978633796453166" at="27,0,54,0" concept="3" trace="getSpecifiedReferences#()Ljava/util/Map;" />
+      <scope id="6862978633796453166" at="23,46,24,45" />
+      <scope id="6862978633796453226" at="31,44,32,20" />
+      <scope id="6862978633796453226" at="39,63,40,57" />
+      <scope id="6862978633796453226" at="43,80,45,62">
+        <var name="scope" id="6862978633796453226" />
+      </scope>
+      <scope id="6862978633796453166" at="23,0,26,0" />
+      <scope id="6862978633796453226" at="30,0,34,0" />
+      <scope id="6862978633796453226" at="38,0,42,0" />
+      <scope id="6862978633796453226" at="42,0,47,0">
+        <var name="_context" id="6862978633796453226" />
+      </scope>
+      <scope id="6862978633796453226" at="36,56,47,10" />
+      <scope id="6862978633796453226" at="34,0,49,0" />
+      <scope id="6862978633796453166" at="28,90,52,22">
+        <var name="d0" id="6862978633796453226" />
+        <var name="references" id="6862978633796453166" />
+      </scope>
+      <scope id="6862978633796453166" at="27,0,54,0" />
+      <unit id="6862978633796453166" at="61,0,64,0" name="DataDicitonaryDSL2.constraints.ReferenceFieldElement_Constraints$LINKS" />
+      <unit id="6862978633796453166" at="56,0,60,0" name="DataDicitonaryDSL2.constraints.ReferenceFieldElement_Constraints$CONCEPTS" />
+      <unit id="6862978633796453226" at="37,19,47,9" name="DataDicitonaryDSL2.constraints.ReferenceFieldElement_Constraints$1$1" />
+      <unit id="6862978633796453226" at="29,48,49,5" name="DataDicitonaryDSL2.constraints.ReferenceFieldElement_Constraints$1" />
+      <unit id="6862978633796453166" at="22,0,65,0" name="DataDicitonaryDSL2.constraints.ReferenceFieldElement_Constraints" />
+    </file>
+  </root>
+</debug-info>
+

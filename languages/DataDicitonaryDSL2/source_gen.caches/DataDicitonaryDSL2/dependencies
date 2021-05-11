@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="DataDicitonaryDSL2.Language">
+    <classNode dependClassName="DataDicitonaryDSL2.actions.ActionAspectDescriptorImpl" />
+    <classNode dependClassName="DataDicitonaryDSL2.behavior.BehaviorAspectDescriptor" />
+    <classNode dependClassName="DataDicitonaryDSL2.constraints.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="DataDicitonaryDSL2.editor.EditorAspectDescriptorImpl" />
+    <classNode dependClassName="DataDicitonaryDSL2.intentions.IntentionsDescriptor" />
+    <classNode dependClassName="DataDicitonaryDSL2.structure.ConceptPresentationAspectImpl" />
+    <classNode dependClassName="DataDicitonaryDSL2.structure.StructureAspectDescriptor" />
+    <classNode dependClassName="DataDicitonaryDSL2.typesystem.TypesystemDescriptor" />
+    <classNode dependClassName="java.lang.Class" />
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="java.util.Collection" />
+    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IHelginsDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.actions.descriptor.ActionAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.openapi.intentions.IntentionAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.adapter.ids.SLanguageId" />
+    <classNode dependClassName="jetbrains.mps.smodel.language.LanguageExtensions" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.BehaviorAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConceptPresentationAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.ILanguageAspect" />
+    <classNode dependClassName="jetbrains.mps.smodel.runtime.StructureAspectDescriptor" />
+    <classNode dependClassName="org.jetbrains.annotations.NotNull" />
+    <classNode dependClassName="org.jetbrains.mps.openapi.language.SLanguage" />
+    <classNode extendsClassName="jetbrains.mps.smodel.language.LanguageRuntime" />
+  </dependency>
+</dependenciesRoot>
+

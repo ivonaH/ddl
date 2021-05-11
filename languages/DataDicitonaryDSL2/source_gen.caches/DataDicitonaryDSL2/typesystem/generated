@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="3" modelHash="dqa38ow3wq3qyt4pkqzaiprq9t0hcd6">
+  <files names="TypesystemDescriptor.java:checkConstraintType_NonTypesystemRule.java:check_BetweenConstraint_NonTypesystemRule.java:check_SemanticDomainForUniqueness_NonTypesystemRule.java:check_element_name_length_NonTypesystemRule.java:minSizeForExclusiveSpecialiyation_NonTypesystemRule.java:minSizeForNonexclusiveSpecialiyation_NonTypesystemRule.java:minSizeForSet_NonTypesystemRule.java:quickFixSwitchPlaces_QuickFix.java:setStructureElement_elements_NonTypesystemRule.java:uniqueNameForElement_NonTypesystemRule.java:uniqueStructureDefinitionName_NonTypesystemRule.java" />
+</product>
+
