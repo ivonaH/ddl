@@ -68,4 +68,4 @@ Using MPS concepts, the Data Dictionary domain-specific language is defined. The
 
 ### Implementations of intention rules:
 
-**aggregation_definition_unreferenced_fields_deletion** - Deletion of unreferenced fields
+- **aggregation_definition_unreferenced_fields_deletion** - Deletion of unreferenced fields
