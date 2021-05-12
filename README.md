@@ -63,3 +63,9 @@ Using MPS concepts, the Data Dictionary domain-specific language is defined. The
 - **minSizeForNonexclusiveSpecialiyation** - NonexclusiveSpecialiyation must have at least 2 elements
 - **setStructureElement_elements** - An aggregation within a set can't have a set as only element
 - **uniqueNameForElement** - Field and structure name must be unique. Field can't have same name as structure.
+- **uniqueStructureDefinitionName** - Structure name must be unique.
+
+
+### Implementations of intention rules:
+
+**aggregation_definition_unreferenced_fields_deletion** - Deletion of unreferenced fields
