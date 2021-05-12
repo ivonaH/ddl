@@ -7,7 +7,6 @@
     <classNode dependClassName="DataDicitonaryDSL2.typesystem.check_element_name_length_NonTypesystemRule" />
     <classNode dependClassName="DataDicitonaryDSL2.typesystem.minSizeForExclusiveSpecialiyation_NonTypesystemRule" />
     <classNode dependClassName="DataDicitonaryDSL2.typesystem.minSizeForNonexclusiveSpecialiyation_NonTypesystemRule" />
-    <classNode dependClassName="DataDicitonaryDSL2.typesystem.minSizeForSet_NonTypesystemRule" />
     <classNode dependClassName="DataDicitonaryDSL2.typesystem.setStructureElement_elements_NonTypesystemRule" />
     <classNode dependClassName="DataDicitonaryDSL2.typesystem.uniqueNameForElement_NonTypesystemRule" />
     <classNode dependClassName="DataDicitonaryDSL2.typesystem.uniqueStructureDefinitionName_NonTypesystemRule" />
@@ -105,22 +104,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
-    <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
-    <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.language.SAbstractConcept" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.language.SConcept" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.language.SContainmentLink" />
-    <classNode dependClassName="org.jetbrains.mps.openapi.model.SNode" />
-    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.AbstractNonTypesystemRule_Runtime" />
-    <classNode extendsClassName="jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime" />
-  </dependency>
-  <dependency className="DataDicitonaryDSL2.typesystem.minSizeForSet_NonTypesystemRule">
-    <classNode dependClassName="jetbrains.mps.errors.IErrorReporter" />
-    <classNode dependClassName="jetbrains.mps.errors.messageTargets.MessageTarget" />
-    <classNode dependClassName="jetbrains.mps.errors.messageTargets.NodeMessageTarget" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
     <classNode dependClassName="jetbrains.mps.lang.typesystem.runtime.IsApplicableStatus" />
     <classNode dependClassName="jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory" />
     <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeCheckingContext" />

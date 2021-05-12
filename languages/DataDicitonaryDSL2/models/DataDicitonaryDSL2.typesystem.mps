@@ -701,43 +701,6 @@
       <ref role="1YaFvo" to="sejs:1jTsOkH5hB2" resolve="ExclusiveSpecialization" />
     </node>
   </node>
-  <node concept="18kY7G" id="1jTsOkH6AP2">
-    <property role="TrG5h" value="minSizeForSet" />
-    <node concept="3clFbS" id="1jTsOkH6AP3" role="18ibNy">
-      <node concept="3clFbJ" id="1jTsOkH6HJo" role="3cqZAp">
-        <node concept="3clFbS" id="1jTsOkH6HJq" role="3clFbx">
-          <node concept="2MkqsV" id="1jTsOkH6NkF" role="3cqZAp">
-            <node concept="Xl_RD" id="1jTsOkH6NkU" role="2MkJ7o">
-              <property role="Xl_RC" value="You must use aggregation" />
-            </node>
-            <node concept="1YBJjd" id="1jTsOkH6Nlj" role="1urrMF">
-              <ref role="1YBMHb" node="1jTsOkH6AP5" resolve="setStructureElement" />
-            </node>
-          </node>
-        </node>
-        <node concept="3eOSWO" id="1jTsOkH6Ne3" role="3clFbw">
-          <node concept="3cmrfG" id="1jTsOkH6Ne6" role="3uHU7w">
-            <property role="3cmrfH" value="1" />
-          </node>
-          <node concept="2OqwBi" id="1jTsOkH6Kua" role="3uHU7B">
-            <node concept="2OqwBi" id="1jTsOkH6HV6" role="2Oq$k0">
-              <node concept="1YBJjd" id="1jTsOkH6HJR" role="2Oq$k0">
-                <ref role="1YBMHb" node="1jTsOkH6AP5" resolve="setStructureElement" />
-              </node>
-              <node concept="3Tsc0h" id="1jTsOkH6I$z" role="2OqNvi">
-                <ref role="3TtcxE" to="sejs:66op0W5anYQ" resolve="elements" />
-              </node>
-            </node>
-            <node concept="34oBXx" id="1jTsOkH6LZ4" role="2OqNvi" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="1YaCAy" id="1jTsOkH6AP5" role="1YuTPh">
-      <property role="TrG5h" value="setStructureElement" />
-      <ref role="1YaFvo" to="sejs:66op0W5aqZb" resolve="SetStructureElement" />
-    </node>
-  </node>
   <node concept="18kY7G" id="1jTsOkH9wUT">
     <property role="TrG5h" value="check_SemanticDomainForUniqueness" />
     <node concept="3clFbS" id="1jTsOkH9wUU" role="18ibNy">

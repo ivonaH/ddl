@@ -17,63 +17,35 @@ import jetbrains.mps.scope.Scope;
 import java.util.List;
 import java.util.Arrays;
 import org.jetbrains.annotations.NotNull;
+import jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime;
+import org.apache.log4j.Level;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.baseLanguage.logging.runtime.model.LoggingRuntime;
-import org.apache.log4j.Level;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.scope.SimpleRoleScope;
 import jetbrains.mps.lang.scopes.runtime.ScopeUtils;
 import jetbrains.mps.core.aspects.behaviour.api.SConstructor;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.core.aspects.behaviour.api.BHMethodNotFoundException;
-import org.jetbrains.mps.openapi.language.SContainmentLink;
-import org.jetbrains.mps.openapi.language.SReferenceLink;
 import org.jetbrains.mps.openapi.language.SConcept;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
+import org.jetbrains.mps.openapi.language.SContainmentLink;
 import org.jetbrains.mps.openapi.language.SProperty;
 
 public final class AggregationDefinition__BehaviorDescriptor extends BaseBHDescriptor {
   private static final Logger LOG = LogManager.getLogger(AggregationDefinition__BehaviorDescriptor.class);
   private static final SAbstractConcept CONCEPT = MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f0528897eL, "DataDicitonaryDSL2.structure.AggregationDefinition");
 
-  public static final SMethod<Void> createAndDefineFields_id3n8B6BChHlt = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("createAndDefineFields").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3n8B6BChHlt").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
-  public static final SMethod<Void> recursiveElementDefinition_id3n8B6BCi7RR = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("recursiveElementDefinition").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("3n8B6BCi7RR").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
   public static final SMethod<Void> deleteUnreferencedFields_id1jTsOkH9CUq = new SMethodBuilder<Void>(new SJavaCompoundTypeImpl(Void.class)).name("deleteUnreferencedFields").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1jTsOkH9CUq").build(SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
-  public static final SMethod<Integer> countFieldReferencesWithName_id1jTsOkHyW12 = new SMethodBuilder<Integer>(new SJavaCompoundTypeImpl(Integer.TYPE)).name("countFieldReferencesWithName").modifiers(SModifiersImpl.create(0, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("1jTsOkHyW12").build(SMethodBuilder.createJavaParameter(String.class, ""));
   public static final SMethod<Scope> getScope_id52_Geb4QDV$ = new SMethodBuilder<Scope>(new SJavaCompoundTypeImpl(Scope.class)).name("getScope").modifiers(SModifiersImpl.create(8, AccessPrivileges.PUBLIC)).concept(CONCEPT).id("52_Geb4QDV$").build(SMethodBuilder.createJavaParameter((Class<SAbstractConcept>) ((Class) Object.class), ""), SMethodBuilder.createJavaParameter((Class<SNode>) ((Class) Object.class), ""));
 
-  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(createAndDefineFields_id3n8B6BChHlt, recursiveElementDefinition_id3n8B6BCi7RR, deleteUnreferencedFields_id1jTsOkH9CUq, countFieldReferencesWithName_id1jTsOkHyW12, getScope_id52_Geb4QDV$);
+  private static final List<SMethod<?>> BH_METHODS = Arrays.<SMethod<?>>asList(deleteUnreferencedFields_id1jTsOkH9CUq, getScope_id52_Geb4QDV$);
 
   private static void ___init___(@NotNull SNode __thisNode__) {
   }
 
-  /*package*/ static void createAndDefineFields_id3n8B6BChHlt(@NotNull final SNode __thisNode__, final SNode node) {
-    final SNode dataDictionaryNode = (SNode) SNodeOperations.getParent(node);
-    ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.elements$hign)).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode element) {
-        AggregationDefinition__BehaviorDescriptor.recursiveElementDefinition_id3n8B6BCi7RR.invoke(__thisNode__, node, element, dataDictionaryNode);
-      }
-    });
-  }
-  /*package*/ static void recursiveElementDefinition_id3n8B6BCi7RR(@NotNull final SNode __thisNode__, final SNode node, SNode element, final SNode dataDictionaryNode) {
-    SNode newNode = SConceptOperations.createNewNode(MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f0529e960L, "DataDicitonaryDSL2.structure.ValueFieldDefinition"));
-    if (SNodeOperations.isInstanceOf(element, CONCEPTS.ValueFieldElement$Uu)) {
-      SNode fieldelElementRef = (SNode) element;
-      SLinkOperations.setTarget(newNode, LINKS.fieldElementRef$gcUp, fieldelElementRef);
-      SLinkOperations.setTarget(newNode, LINKS.domainRef$gcsn, ListSequence.fromList(SLinkOperations.getChildren(dataDictionaryNode, LINKS.predefinedDomains$M0T0)).getElement(0));
-      ListSequence.fromList(SLinkOperations.getChildren(node, LINKS.fieldDefinitions$G$NH)).addElement(newNode);
-    }
-    if (SNodeOperations.isInstanceOf(element, CONCEPTS.StructureElement$x9)) {
-      ListSequence.fromList(SNodeOperations.getChildren(element)).visitAll(new IVisitor<SNode>() {
-        public void visit(SNode child) {
-          AggregationDefinition__BehaviorDescriptor.recursiveElementDefinition_id3n8B6BCi7RR.invoke(__thisNode__, node, (SNode) child, dataDictionaryNode);
-        }
-      });
-    }
-  }
   /*package*/ static void deleteUnreferencedFields_id1jTsOkH9CUq(@NotNull SNode __thisNode__, SNode node) {
     LoggingRuntime.logMsgView(Level.WARN, "USAO U DELETE", AggregationDefinition__BehaviorDescriptor.class, null, null);
     SNode dataDictionaryModel = (SNode) SNodeOperations.getParent(node);
@@ -93,16 +65,6 @@ public final class AggregationDefinition__BehaviorDescriptor extends BaseBHDescr
       }
     }
 
-  }
-  /*package*/ static int countFieldReferencesWithName_id1jTsOkHyW12(@NotNull SNode __thisNode__, String name) {
-    int count = 0;
-    for (SNode f : ListSequence.fromList(SLinkOperations.getChildren(__thisNode__, LINKS.fieldDefinitions$G$NH))) {
-      if (SPropertyOperations.getString(f, PROPS.name$MnvL) == name && SNodeOperations.isInstanceOf(f, CONCEPTS.ReferenceFieldDefinition$79)) {
-        count += 1;
-      }
-    }
-    LoggingRuntime.logMsgView(Level.INFO, "count " + count, AggregationDefinition__BehaviorDescriptor.class, null, null);
-    return count;
   }
   /*package*/ static Scope getScope_id52_Geb4QDV$(@NotNull SNode __thisNode__, SAbstractConcept kind, SNode child) {
     if (SConceptOperations.isSubConceptOf(SNodeOperations.asSConcept(kind), CONCEPTS.ValueFieldElement$Uu)) {
@@ -129,17 +91,9 @@ public final class AggregationDefinition__BehaviorDescriptor extends BaseBHDescr
     }
     switch (methodIndex) {
       case 0:
-        createAndDefineFields_id3n8B6BChHlt(node, (SNode) parameters[0]);
-        return null;
-      case 1:
-        recursiveElementDefinition_id3n8B6BCi7RR(node, (SNode) parameters[0], (SNode) parameters[1], (SNode) parameters[2]);
-        return null;
-      case 2:
         deleteUnreferencedFields_id1jTsOkH9CUq(node, (SNode) parameters[0]);
         return null;
-      case 3:
-        return (T) ((Integer) countFieldReferencesWithName_id1jTsOkHyW12(node, (String) parameters[0]));
-      case 4:
+      case 1:
         return (T) ((Scope) getScope_id52_Geb4QDV$(node, (SAbstractConcept) parameters[0], (SNode) parameters[1]));
       default:
         throw new BHMethodNotFoundException(this, method);
@@ -170,22 +124,18 @@ public final class AggregationDefinition__BehaviorDescriptor extends BaseBHDescr
     return CONCEPT;
   }
 
-  private static final class LINKS {
-    /*package*/ static final SContainmentLink elements$hign = MetaAdapterFactory.getContainmentLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05288979L, 0x6198640f05295aa4L, "elements");
-    /*package*/ static final SReferenceLink fieldElementRef$gcUp = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f0529e960L, 0x6198640f052eda09L, "fieldElementRef");
-    /*package*/ static final SReferenceLink domainRef$gcsn = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f0529e960L, 0x6198640f052eda07L, "domainRef");
-    /*package*/ static final SContainmentLink predefinedDomains$M0T0 = MetaAdapterFactory.getContainmentLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05288978L, 0x6198640f052ed8ffL, "predefinedDomains");
-    /*package*/ static final SContainmentLink fieldDefinitions$G$NH = MetaAdapterFactory.getContainmentLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05288979L, 0x6198640f0529e9b0L, "fieldDefinitions");
-    /*package*/ static final SReferenceLink refElement$ix4i = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x204b5bc0d63e3eb5L, 0x448d43d5c79e8d34L, "refElement");
-    /*package*/ static final SReferenceLink refFieldElementForeign$9C0x = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x204b5bc0d63e3eb5L, 0x5f3e32b4b07f5e8cL, "refFieldElementForeign");
-    /*package*/ static final SReferenceLink refAggregationDefinition$as$k = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x448d43d5c79e8d33L, 0x448d43d5c7a6f475L, "refAggregationDefinition");
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept ValueFieldDefinition$5 = MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f0529e960L, "DataDicitonaryDSL2.structure.ValueFieldDefinition");
+    /*package*/ static final SConcept ValueFieldElement$Uu = MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05295a88L, "DataDicitonaryDSL2.structure.ValueFieldElement");
   }
 
-  private static final class CONCEPTS {
-    /*package*/ static final SConcept ValueFieldElement$Uu = MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05295a88L, "DataDicitonaryDSL2.structure.ValueFieldElement");
-    /*package*/ static final SConcept StructureElement$x9 = MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05297fb3L, "DataDicitonaryDSL2.structure.StructureElement");
-    /*package*/ static final SConcept ValueFieldDefinition$5 = MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f0529e960L, "DataDicitonaryDSL2.structure.ValueFieldDefinition");
-    /*package*/ static final SConcept ReferenceFieldDefinition$79 = MetaAdapterFactory.getConcept(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x204b5bc0d63e3eb5L, "DataDicitonaryDSL2.structure.ReferenceFieldDefinition");
+  private static final class LINKS {
+    /*package*/ static final SReferenceLink fieldElementRef$gcUp = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f0529e960L, 0x6198640f052eda09L, "fieldElementRef");
+    /*package*/ static final SReferenceLink refElement$ix4i = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x204b5bc0d63e3eb5L, 0x448d43d5c79e8d34L, "refElement");
+    /*package*/ static final SReferenceLink refFieldElementForeign$9C0x = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x204b5bc0d63e3eb5L, 0x5f3e32b4b07f5e8cL, "refFieldElementForeign");
+    /*package*/ static final SContainmentLink fieldDefinitions$G$NH = MetaAdapterFactory.getContainmentLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05288979L, 0x6198640f0529e9b0L, "fieldDefinitions");
+    /*package*/ static final SReferenceLink refAggregationDefinition$as$k = MetaAdapterFactory.getReferenceLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x448d43d5c79e8d33L, 0x448d43d5c7a6f475L, "refAggregationDefinition");
+    /*package*/ static final SContainmentLink elements$hign = MetaAdapterFactory.getContainmentLink(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05288979L, 0x6198640f05295aa4L, "elements");
   }
 
   private static final class PROPS {
