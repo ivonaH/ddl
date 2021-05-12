@@ -452,6 +452,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.associate("domainRef", 0x6198640f052eda07L).target(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f052e02edL).optional(false).origin("7032480833813273095").done();
     b.associate("fieldElementRef", 0x6198640f052eda09L).target(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x6198640f05295a88L).optional(false).origin("7032480833813273097").done();
+    b.aggregate("length", 0x6e1f466ba73d8f4fL).target(0xe42098a93fd7446cL, 0x8eb044c9c71b5415L, 0x377d663a3af96695L).optional(true).ordered(true).multiple(false).origin("7935138496631377743").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForValueFieldElement() {

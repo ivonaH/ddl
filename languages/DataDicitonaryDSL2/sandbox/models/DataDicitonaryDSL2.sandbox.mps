@@ -41,6 +41,7 @@
       <concept id="7032480833812949344" name="DataDicitonaryDSL2.structure.ValueFieldDefinition" flags="ng" index="1$GoPJ">
         <reference id="7032480833813273097" name="fieldElementRef" index="1$HFS6" />
         <reference id="7032480833813273095" name="domainRef" index="1$HFS8" />
+        <child id="7935138496631377743" name="length" index="398G$$" />
       </concept>
       <concept id="7032480833812934603" name="DataDicitonaryDSL2.structure.SetStructureElement" flags="ng" index="1$GsJ4" />
       <concept id="7032480833813235626" name="DataDicitonaryDSL2.structure.Character" flags="ng" index="1$Hye_" />
@@ -133,6 +134,7 @@
       <node concept="dx02J" id="_ERH24C_Uf" role="HnO0C">
         <property role="dx02G" value="150" />
       </node>
+      <node concept="dT7AK" id="6SvhAIBgAhN" role="dWQGD" />
     </node>
     <node concept="1$HP5Q" id="3tXpzCUZPDq" role="1$HWnA">
       <property role="TrG5h" value="KOLICINA" />
@@ -256,6 +258,9 @@
         <property role="TrG5h" value="adres" />
         <ref role="1$HFS6" node="3tXpzCUZPmy" resolve="adresa" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAhH" role="398G$$">
+          <property role="dx02G" value="130" />
+        </node>
       </node>
       <node concept="1$GoPJ" id="3tXpzCUZPmM" role="1$GoQZ">
         <property role="TrG5h" value="delatnos" />
@@ -271,14 +276,6 @@
         <property role="TrG5h" value="gra" />
         <ref role="1$HFS6" node="4wXK7f6IpzA" resolve="grad" />
         <ref role="1$HFS8" node="3tXpzCUZPer" resolve="DECIMAL" />
-      </node>
-      <node concept="1$GjU7" id="6UVhg_3Ziia" role="1$GjUF">
-        <property role="TrG5h" value="dcsjanckdnajdkn" />
-      </node>
-      <node concept="1$GoPJ" id="6UVhg_3Ziic" role="1$GoQZ">
-        <property role="TrG5h" value="dcsjancdnajdkn" />
-        <ref role="1$HFS6" node="6UVhg_3Ziia" resolve="dcsjanckdnajdkn" />
-        <ref role="1$HFS8" node="3tXpzCUZPRm" resolve="CENA" />
       </node>
     </node>
     <node concept="1$GePL" id="3tXpzCUZPn$" role="1$GeR$">
@@ -330,6 +327,9 @@
         <property role="TrG5h" value="telefo" />
         <ref role="1$HFS6" node="3tXpzCUZPpJ" resolve="telefon" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBfXAc" role="398G$$">
+          <property role="dx02G" value="10" />
+        </node>
       </node>
     </node>
     <node concept="1$GePL" id="3tXpzCUZPqi" role="1$GeR$">
@@ -365,6 +365,9 @@
         <property role="TrG5h" value="vrst" />
         <ref role="1$HFS6" node="3tXpzCUZPrQ" resolve="vrsta" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAhJ" role="398G$$">
+          <property role="dx02G" value="20" />
+        </node>
       </node>
     </node>
     <node concept="1$GePL" id="3tXpzCUZPyq" role="1$GeR$">
@@ -1085,6 +1088,9 @@
         <property role="TrG5h" value="telefo" />
         <ref role="1$HFS6" node="5xFVR30Soy7" resolve="telefon" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAhR" role="398G$$">
+          <property role="dx02G" value="10" />
+        </node>
       </node>
       <node concept="1$GoPJ" id="5xFVR30Soz6" role="1$GoQZ">
         <ref role="1$HFS6" node="5xFVR30Soz5" resolve="RB" />
@@ -1273,6 +1279,9 @@
         <property role="TrG5h" value="brojPlatneKartic" />
         <ref role="1$HFS6" node="5xFVR30SoIo" resolve="brojPlatneKartice" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAhT" role="398G$$">
+          <property role="dx02G" value="16" />
+        </node>
       </node>
       <node concept="1$GjU7" id="5xFVR30SoIo" role="1$GjUF">
         <property role="TrG5h" value="brojPlatneKartice" />
@@ -1322,6 +1331,9 @@
         <property role="TrG5h" value="telefo" />
         <ref role="1$HFS6" node="5xFVR30SoKu" resolve="telefon" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAhV" role="398G$$">
+          <property role="dx02G" value="10" />
+        </node>
       </node>
       <node concept="1$GoPJ" id="5xFVR30SoLg" role="1$GoQZ">
         <property role="TrG5h" value="adres" />
@@ -1407,6 +1419,9 @@
         <property role="TrG5h" value="brRacunaPrimaoc" />
         <ref role="1$HFS6" node="5xFVR30SoQ6" resolve="brRacunaPrimaoca" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAhX" role="398G$$">
+          <property role="dx02G" value="18" />
+        </node>
       </node>
       <node concept="3QtmlP" id="5xFVR30SoQm" role="1$GoQZ">
         <ref role="234WVx" node="5xFVR30SoQk" resolve="brojPlatneKartice" />
@@ -1570,6 +1585,9 @@
         <property role="TrG5h" value="statusTransakcij" />
         <ref role="1$HFS6" node="5xFVR30Sp9p" resolve="statusTransakcije" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAhZ" role="398G$$">
+          <property role="dx02G" value="3" />
+        </node>
       </node>
     </node>
     <node concept="1$GePL" id="1htaBaVPvQV" role="1$GeR$">
@@ -1947,11 +1965,17 @@
         <property role="TrG5h" value="korisnickoIm" />
         <ref role="1$HFS6" node="1htaBaVPwt7" resolve="korisnickoIme" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAi1" role="398G$$">
+          <property role="dx02G" value="20" />
+        </node>
       </node>
       <node concept="1$GoPJ" id="1htaBaVPwtA" role="1$GoQZ">
         <property role="TrG5h" value="lozink" />
         <ref role="1$HFS6" node="1htaBaVPwt$" resolve="lozinka" />
         <ref role="1$HFS8" node="3tXpzCUZPet" resolve="CHARACTER" />
+        <node concept="dx02J" id="6SvhAIBgAi3" role="398G$$">
+          <property role="dx02G" value="16" />
+        </node>
       </node>
     </node>
     <node concept="1$GePL" id="1htaBaVPwtT" role="1$GeR$">
@@ -2458,7 +2482,7 @@
     <node concept="1$Hye_" id="3tXpzCUZPet" role="1$HFNK">
       <property role="TrG5h" value="CHARACTER" />
       <node concept="dx02J" id="6UVhg_3UFGc" role="HnO0C">
-        <property role="dx02G" value="50" />
+        <property role="dx02G" value="45245" />
       </node>
     </node>
     <node concept="TTSWi" id="3tXpzCUZPeu" role="1$HFNK">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="8y522qiben6fv8tjmmkizfhasnty76q">
+<product version="3" modelHash="ahkap09lmzhd3hrwnlrqororyffxuc2">
   <files names="AggregationDefinition_Constraints.java:AggregationStructureElement_Constraints.java:AndConstraint_Constraints.java:ConstraintsAspectDescriptor.java:ReferenceFieldDefinition_Constraints.java:ReferenceFieldElement_Constraints.java:SemanticDomain_Constraints.java:SetStructureElement_Constraints.java:ValueFieldDefinition_Constraints.java" />
 </product>
 

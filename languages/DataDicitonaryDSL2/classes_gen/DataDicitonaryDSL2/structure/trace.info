@@ -19,7 +19,7 @@
       <unit at="10,0,94,0" name="DataDicitonaryDSL2.structure.LanguageConceptSwitch" />
     </file>
     <file name="StructureAspectDescriptor.java">
-      <unit at="18,0,466,0" name="DataDicitonaryDSL2.structure.StructureAspectDescriptor" />
+      <unit at="18,0,467,0" name="DataDicitonaryDSL2.structure.StructureAspectDescriptor" />
     </file>
   </root>
   <root nodeRef="r:b98f07a2-a3fa-4b01-9c54-bc49c2e05642(DataDicitonaryDSL2.structure)/1288904211231815006">
@@ -732,18 +732,18 @@
     <file name="StructureAspectDescriptor.java">
       <node id="7032480833812912776" at="52,0,53,0" concept="2" trace="myConceptValueFieldElement" />
       <node id="7032480833812912776" at="141,51,142,42" concept="6" />
-      <node id="7032480833812912776" at="457,75,458,170" concept="5" />
-      <node id="7032480833812912776" at="458,170,459,34" concept="1" />
-      <node id="7032480833812912776" at="459,34,460,116" concept="1" />
-      <node id="7032480833812912776" at="460,116,461,105" concept="1" />
-      <node id="7032480833812912776" at="461,105,462,17" concept="1" />
-      <node id="7032480833812912776" at="462,17,463,22" concept="6" />
-      <node id="7032480833812912776" at="457,0,465,0" concept="8" trace="createDescriptorForValueFieldElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="7032480833812912776" at="458,75,459,170" concept="5" />
+      <node id="7032480833812912776" at="459,170,460,34" concept="1" />
+      <node id="7032480833812912776" at="460,34,461,116" concept="1" />
+      <node id="7032480833812912776" at="461,116,462,105" concept="1" />
+      <node id="7032480833812912776" at="462,105,463,17" concept="1" />
+      <node id="7032480833812912776" at="463,17,464,22" concept="6" />
+      <node id="7032480833812912776" at="458,0,466,0" concept="8" trace="createDescriptorForValueFieldElement#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="7032480833812912776" at="141,51,142,42" />
-      <scope id="7032480833812912776" at="457,75,463,22">
+      <scope id="7032480833812912776" at="458,75,464,22">
         <var name="b" id="7032480833812912776" />
       </scope>
-      <scope id="7032480833812912776" at="457,0,465,0" />
+      <scope id="7032480833812912776" at="458,0,466,0" />
     </file>
   </root>
   <root nodeRef="r:b98f07a2-a3fa-4b01-9c54-bc49c2e05642(DataDicitonaryDSL2.structure)/7032480833812922291">
@@ -908,13 +908,14 @@
       <node id="7032480833812949344" at="451,105,452,17" concept="1" />
       <node id="7032480833813273095" at="452,17,453,173" concept="1" />
       <node id="7032480833813273097" at="453,173,454,179" concept="1" />
-      <node id="7032480833812949344" at="454,179,455,22" concept="6" />
-      <node id="7032480833812949344" at="447,0,457,0" concept="8" trace="createDescriptorForValueFieldDefinition#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
+      <node id="7935138496631377743" at="454,179,455,199" concept="1" />
+      <node id="7032480833812949344" at="455,199,456,22" concept="6" />
+      <node id="7032480833812949344" at="447,0,458,0" concept="8" trace="createDescriptorForValueFieldDefinition#()Ljetbrains/mps/smodel/runtime/ConceptDescriptor;" />
       <scope id="7032480833812949344" at="139,54,140,45" />
-      <scope id="7032480833812949344" at="447,78,455,22">
+      <scope id="7032480833812949344" at="447,78,456,22">
         <var name="b" id="7032480833812949344" />
       </scope>
-      <scope id="7032480833812949344" at="447,0,457,0" />
+      <scope id="7032480833812949344" at="447,0,458,0" />
     </file>
   </root>
   <root nodeRef="r:b98f07a2-a3fa-4b01-9c54-bc49c2e05642(DataDicitonaryDSL2.structure)/7032480833813218029">

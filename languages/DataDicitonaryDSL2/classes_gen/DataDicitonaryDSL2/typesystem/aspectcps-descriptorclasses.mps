@@ -1198,7 +1198,7 @@
     </node>
   </node>
   <node concept="312cEu" id="5j">
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="check_BetweenConstraint_NonTypesystemRule" />
     <uo k="s:originTrace" v="n:1288904211232818442" />
     <node concept="3clFbW" id="5k" role="jymVt">

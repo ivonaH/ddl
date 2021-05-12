@@ -191,6 +191,12 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="66op0W5alE8" resolve="ValueFieldElement" />
     </node>
+    <node concept="1TJgyj" id="6SvhAIBfoXf" role="1TKVEi">
+      <property role="IQ2ns" value="7935138496631377743" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="length" />
+      <ref role="20lvS9" node="3tXpzCUYmql" resolve="PredefinedDomainLengthConstraint" />
+    </node>
   </node>
   <node concept="1TIwiD" id="66op0W5bwbH">
     <property role="EcuMT" value="7032480833813218029" />
@@ -328,14 +334,14 @@
   </node>
   <node concept="1TIwiD" id="IOGG3Pw68P">
     <property role="EcuMT" value="843495572047422005" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="ConstraintCriterium" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="IOGG3Pw68O" resolve="Constraint" />
   </node>
   <node concept="1TIwiD" id="IOGG3Pw68Q">
     <property role="EcuMT" value="843495572047422006" />
-    <property role="3GE5qa" value="constraint.complex" />
+    <property role="3GE5qa" value="constraint.operator" />
     <property role="TrG5h" value="ConstraintOperator" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="IOGG3Pw68O" resolve="Constraint" />
@@ -356,7 +362,7 @@
   </node>
   <node concept="1TIwiD" id="IOGG3Pw68R">
     <property role="EcuMT" value="843495572047422007" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="BetweenConstraint" />
     <property role="34LRSv" value="BETWEEN" />
     <ref role="1TJDcQ" node="IOGG3Pw68P" resolve="ConstraintCriterium" />
@@ -373,7 +379,7 @@
   </node>
   <node concept="1TIwiD" id="17z6SOrYzlu">
     <property role="EcuMT" value="1288904211231815006" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="InConstraint" />
     <property role="34LRSv" value="IN" />
     <ref role="1TJDcQ" node="IOGG3Pw68P" resolve="ConstraintCriterium" />
@@ -392,7 +398,7 @@
   </node>
   <node concept="1TIwiD" id="17z6SOs1lu1">
     <property role="EcuMT" value="1288904211232544641" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="InValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="17z6SOs1lu2" role="PzmwI">
@@ -401,14 +407,14 @@
   </node>
   <node concept="1TIwiD" id="17z6SOs1Q8X">
     <property role="EcuMT" value="1288904211232678461" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="NotNullConstraint" />
     <property role="34LRSv" value="NOT NULL" />
     <ref role="1TJDcQ" node="IOGG3Pw68P" resolve="ConstraintCriterium" />
   </node>
   <node concept="25R3W" id="17z6SOs2nlC">
     <property role="3F6X1D" value="1288904211232814440" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="Operations" />
     <node concept="25R33" id="17z6SOs2nlD" role="25R1y">
       <property role="3tVfz5" value="1288904211232814441" />
@@ -438,7 +444,7 @@
   </node>
   <node concept="1TIwiD" id="17z6SOs2nmM">
     <property role="EcuMT" value="1288904211232814514" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <property role="TrG5h" value="ComparisonConstraint" />
     <property role="34LRSv" value="COMPARE" />
     <ref role="1TJDcQ" node="IOGG3Pw68P" resolve="ConstraintCriterium" />
@@ -455,14 +461,14 @@
   </node>
   <node concept="1TIwiD" id="17z6SOs3z$H">
     <property role="EcuMT" value="1288904211233126701" />
-    <property role="3GE5qa" value="constraint.complex" />
+    <property role="3GE5qa" value="constraint.operator" />
     <property role="TrG5h" value="AndConstraint" />
     <property role="34LRSv" value="AND" />
     <ref role="1TJDcQ" node="IOGG3Pw68Q" resolve="ConstraintOperator" />
   </node>
   <node concept="1TIwiD" id="17z6SOs3z_u">
     <property role="EcuMT" value="1288904211233126750" />
-    <property role="3GE5qa" value="constraint.complex" />
+    <property role="3GE5qa" value="constraint.operator" />
     <property role="TrG5h" value="OrConstraint" />
     <property role="34LRSv" value="OR" />
     <ref role="1TJDcQ" node="IOGG3Pw68Q" resolve="ConstraintOperator" />

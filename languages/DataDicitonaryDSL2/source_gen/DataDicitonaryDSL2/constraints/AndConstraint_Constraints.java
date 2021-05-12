@@ -38,8 +38,8 @@ public class AndConstraint_Constraints extends BaseConstraintsDescriptor {
     };
   }
   private static boolean staticCanBeAParent(SNode node, SNode childNode, SAbstractConcept childConcept, SContainmentLink link) {
-    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.constraint1$wJEh), CONCEPTS.NotNullConstraint$7s)) {
-      if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, LINKS.constraint2$wK8j), CONCEPTS.NotNullConstraint$7s)) {
+    if (SNodeOperations.getConcept(SLinkOperations.getTarget(node, LINKS.constraint1$wJEh)).equals(CONCEPTS.NotNullConstraint$7s)) {
+      if (SNodeOperations.getConcept(SLinkOperations.getTarget(node, LINKS.constraint2$wK8j)).equals(CONCEPTS.NotNullConstraint$7s)) {
         return false;
       }
     }

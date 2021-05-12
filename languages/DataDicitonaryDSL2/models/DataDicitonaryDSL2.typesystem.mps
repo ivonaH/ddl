@@ -967,7 +967,7 @@
   </node>
   <node concept="18kY7G" id="17z6SOs2oka">
     <property role="TrG5h" value="check_BetweenConstraint" />
-    <property role="3GE5qa" value="constraint.simple" />
+    <property role="3GE5qa" value="constraint.criterium" />
     <node concept="3clFbS" id="17z6SOs2okb" role="18ibNy">
       <node concept="3clFbJ" id="17z6SOs2okh" role="3cqZAp">
         <node concept="3eOSWO" id="17z6SOs2qel" role="3clFbw">
