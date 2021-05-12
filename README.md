@@ -2,15 +2,15 @@
 Data Dictionary is a tool for structured description of data in the system, or a description of their content and structure. The description is structured because the tool defines a specific set of concepts and rules for describing data. Documents are made based on the data dictionary.
 
 ## Basic concepts of Data Dictionary are:
-Field - Primitive (basic) component of data structures (for example first name, last name), each field has its value.
-Structure - A complex component consisting of other components that can be primitive or some other defined complex structure.
-Domain - A collection from which one field can take values. It can be predefined (String, Integer, Date, Double) or semantic domain.
+- **Field** - Primitive (basic) component of data structures (for example first name, last name), each field has its value.
+- **Structure** - A complex component consisting of other components that can be primitive or some other defined complex structure.
+- **Domain** - A collection from which one field can take values. It can be predefined (String, Integer, Date, Double) or semantic domain.
  
 ### Structure forms can be:
-Aggregation - Represents a structure in the form of a list of N components (annotation is <F1, F2,..., Fn>)
-Exclusive specialization - Structure of components where you can choose one component (annotation is [F1, F2,..., Fn] )
-Nonexclusive specialization- Structure of components where you can choose more components (annotation is /F1, F2,..., Fn/ )
-Set - Structure in which the component repeats (annotation is {F1})
+- **Aggregation** - Represents a structure in the form of a list of N components (annotation is <F1, F2,..., Fn>)
+- **Exclusive specialization** - Structure of components where you can choose one component (annotation is [F1, F2,..., Fn] )
+- **Nonexclusive specialization** - Structure of components where you can choose more components (annotation is /F1, F2,..., Fn/ )
+- **Set** - Structure in which the component repeats (annotation is {F1})
  
 ## About project
 Using MPS concepts, the Data Dictionary domain-specific language is defined. The rules of Data Dictionary are defined by using the concepts check and quick fix rule.
